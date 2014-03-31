@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>  
+    <!-- 系统设置界面需要要到的数组 -->  
+    <string-array name="opp_num">  
+        <item>三次</item>  
+        <item>四次</item>  
+        <item>五次</item>  
+        <item>六次</item>  
+        <item>七次</item>
+        <item>八次</item>
+        <item>九次</item>       
+    </string-array>
+    <string-array name="opp_num_value">  
+        <item>3</item>  
+        <item>4</item>  
+        <item>5</item>  
+        <item>6</item>  
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>       
+    </string-array>   
+    <string-array name="place_num">  
+        <item>三位数</item>  
+        <item>四位数</item>  
+        <item>五位数</item>   
+    </string-array>
+    <string-array name="place_num_value">  
+        <item>3</item>  
+        <item>4</item>  
+        <item>5</item>   
+    </string-array>  
+</resources>

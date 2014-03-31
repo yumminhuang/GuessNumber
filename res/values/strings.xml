@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GameActivity!</string>
+    <string name="app_name">猜数字</string>
+    <string name="help">帮助</string>
+    <string name="ok">确认</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+    <string name="exit">退出</string>
+    <string name="opp_list_key">opp_list</string>
+    <string name="place_list_key">place_list</string>
+    <string name="music_check_key">music_check</string>
+</resources>

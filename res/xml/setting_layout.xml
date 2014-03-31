@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen   
+    xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:title="设置">  
+    <ListPreference
+    android:title="机会次数"
+    android:summary="设置可以猜测的次数" 
+    android:entries="@array/opp_num" 
+    android:entryValues="@array/opp_num_value"    
+    android:dialogTitle="设置次数" 
+    android:negativeButtonText="@string/cancel" 
+    android:key="@string/opp_list_key" 
+    android:defaultValue="5"/>
+    <ListPreference
+    android:title="数字位数"
+    android:summary="设置猜测的数字是几位" 
+    android:entries="@array/place_num" 
+    android:entryValues="@array/place_num_value" 
+    android:dialogTitle="设置位数" 
+    android:negativeButtonText="@string/cancel" 
+    android:key="@string/place_list_key" 
+    android:defaultValue="3"/>
+    <CheckBoxPreference
+    android:title="背景音乐"
+    android:summaryOn="打开背景音乐"
+    android:summaryOff="关闭背景音乐"
+    android:key="@string/music_check_key" 
+    android:defaultValue="true">
+    </CheckBoxPreference>
+</PreferenceScreen>  
